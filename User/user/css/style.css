@@ -1,0 +1,382 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+html, body{
+  	font-family: 'Oswald', sans-serif;
+    font-size: 100%;
+  	 background: #FFf;
+}
+
+/*-----start-header----*/
+.header{
+	background: #F7F8F8;
+}
+.logo{
+	float: left;
+	margin-top: 0.2em;
+}
+
+/*----navbar-nav----*/
+.top-header{
+	padding: 0.8em 0em;
+}
+.top-nav ul li a{
+	color: #737373;
+	padding: 0.23em 1em;
+	font-size: 1.05em;
+	text-align: center;
+	position: relative;
+	font-weight: 400;
+}
+.top-nav ul li.active a,
+.top-nav ul li a:hover{
+	color:#42B3E5;
+}
+.logo a{
+	display:block;
+}
+/* top-nav */
+.top-nav:before,
+.top-nav:after {
+    content: " ";
+    display: table;
+}
+.top-nav:after {
+    clear: both;
+}
+nav {
+	position: relative;
+	float: right;
+}
+nav ul {
+	padding: 0;
+	float: right;
+	margin: 0.9em 0;
+}
+nav li {
+	display: inline;
+	float: left;
+	position:relative;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+nav a:hover{
+	text-decoration:none;
+	color:#00A2C1;
+}
+nav a#pull {
+	display: none;
+}
+/*----slider----*/
+#slider2,
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+}
+
+.rslides_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px;
+}
+.rslides_tabs a {
+  width: auto;
+  line-height: 20px;
+  padding: 9px 20px;
+  height: auto;
+  background: transparent;
+  display: inline;
+}
+.rslides_tabs li:first-child {
+  margin-left: 0;
+}
+.rslides_tabs .rslides_here a {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-weight: bold;
+}
+.events {
+  list-style: none;
+}
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.callbacks img {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border: 0;
+  width: 100%;
+}
+.callbacks .caption {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	font-size: 20px;
+	text-shadow: none;
+	color: #fff;
+	left: 17%;
+	right: 0;
+	padding: 10px 20px;
+	margin: 0;
+	max-width: none;
+	top: 13%;
+}
+.callbacks_nav {
+  	position: absolute;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	top: 57%;
+	left: 6%;
+	z-index: 3;
+	text-indent: -9999px;
+	overflow: hidden;
+	text-decoration: none;
+	height: 43px;
+	width: 43px;
+	background: transparent url("../images/slider-arrows.png") no-repeat left top;
+	margin-top: -65px;
+}
+.callbacks_nav:active {
+  opacity: 1.0;
+}
+.callbacks_nav.next {
+ 	left: auto;
+	background-position: right top;
+	right: 7%;
+}
+#slider3-pager a {
+  display: inline-block;
+}
+#slider3-pager span{
+  float: left;
+}
+#slider3-pager span{
+	width:100px;
+	height:15px;
+	background:#fff;
+	display:inline-block;
+	border-radius:30em;
+	opacity:0.6;
+}
+#slider3-pager .rslides_here a {
+  background: #FFF;
+  border-radius:30em;
+  opacity:1;
+}
+#slider3-pager a {
+  padding: 0;
+}
+#slider3-pager li{
+	display:inline-block;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.callbacks_tabs{
+	display:none;
+}
+.callbacks_tabs li{
+	display:inline-block;
+} 
+
+.search-container{
+	padding:3em 0;
+	/*border: 1px solid #737373;*/
+}
+#pic{
+	width:300px; 
+	height:139px;
+	float:right;
+    margin-right:80px; 
+	margin-top:350px; 
+}
+.search-header h2{
+	color: #42B3E5;
+	font-size:40px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin:0 0 0.2em 0;
+    text-align: center;
+}
+	
+.search-header p{
+	      color: #737373;
+          font-weight: 400;
+          font-size: 1.1em;
+          margin: 0;
+          text-align: center;
+}
+.tag{
+	margin-top: 10px;
+	margin-left:80px;
+	margin-right:80px;
+    border: 1px solid #737373;	
+}
+.news{
+	height: 510px;
+	width:750px;
+	border-right:1px solid #737373; 
+    float: left;
+
+}
+.news h3{
+	margin-top:10px;
+	color:#009ad6;
+}
+.search-input{
+margin-top: 50px;
+}
+.searching-unit input {
+    width: 200px;
+    height: 35px;
+    padding: 0 6px 0 12px;
+    font-size: 14px;
+    color: #737373;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-left: 50px;
+}
+.searching-unit button{
+background-color: #42B3E5;
+height: 35px;
+}
+#Medical-knowledge{
+	margin-left:80px;
+	height:210px;
+}
+#Recommended-daily{
+	margin-left:80px;
+	height:240px;
+}
+.bottom{
+	margin-top:470px;
+	height:80px;
+	background-color:#a1a3a6;
+	text-align:center;
+	opacity:0.8; 
+	font-size:17px;
+}
+.Title{
+    display:block;
+    font-size:17px;
+    font-weight:520; 
+    color:#464547;
+    font-family:微软雅黑;
+    line-height:25px;
+    list-style:none;
+}
+
+.Title.active a,
+.Title a:hover{
+	color:#006c54;
+    text-decoration:none;
+	list-style:none;
+	
+}
+.show{
+    display:block;
+    font-size:13px;
+    color:#74787c;
+    line-height:23px;
+}
+.show_block{
+	font-family:微软雅黑;
+	font-size:16px;
+	height:400px;
+	width:300px;
+	/* opacity:0.6; */
+	background-color:#afdfe4;
+	float:right;
+	margin-right:173px;
+	margin-top:15px;
+    /* display:none; */
+}
+.show-s{
+   display:block;
+   font-size:14px;
+   color:#464547;
+}
+#search{
+	font-size:14px;
+	}
+	
+#search .key{
+	padding:2px 1px;
+	width:300px;
+	margin-left: 10px;
+	}
+#search_auto{
+	border:1px solid #817FB2; 
+	position:absolute; 
+	display:none;
+    margin-left:875px;
+}
+   /*设置提示框内的li标签效果*/
+#search_auto li{
+	background:#FFF; 
+	text-align:left;
+	}
+	 /*设置提示框内的关闭按钮效果*/
+#search_auto li.cls{
+	text-align:right;
+	}
+	/*设置提示框内li标签*/
+#search_auto li {
+	display:block;
+	padding:5px 6px; 
+	cursor:pointer; 
+	color:#666;
+	}
+	/*当鼠标移入提示框内时的效果*/
+#search_auto li :hover{
+	background:#D8D8D8; 
+	text-decoration:none; 
+	color:#000;
+	}
+#show-ways{
+	display:block;
+	/* padding-top:10px;  */
+	line-height:30px;
+}
+ 
+
+        
+
+
+
+
+
+
+
+

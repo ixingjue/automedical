@@ -1,0 +1,26 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-07 14:53:51
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-07 15:34:20
+*/
+#usermessage ul li{
+    list-style: none;
+
+}
+#head{
+    height: 30px;
+    margin-top: 10px;
+}
+#revise{
+	background-color: #78cdd1;
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+}
+#revise-f{
+	background-color: #78cdd1;
+    width: 120px;
+    height: 25px;
+    font-size: 15px;
+}

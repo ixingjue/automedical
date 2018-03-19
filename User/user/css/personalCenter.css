@@ -1,0 +1,103 @@
+/* 
+* @Author: anchen
+* @Date:   2017-04-26 19:54:39
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-07 15:00:03
+*/
+
+body {
+    /*background-color: #F7F8F8;*/
+    height: 100%;
+    width: 100%;
+}
+.container {
+    /*background-color:  #F7F8F8;*/
+    height: 500px;
+}
+.header {
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*background-color: #F7F8F8;*/
+    border-bottom: 2px solid #42B3E5;
+	background-image:url("../images/header-1.jpg");
+}
+.top-nav{
+	float:right;
+	width:100px;
+    margin-top:20px;
+	margin-right:70px;
+	text-decoration:none;
+}
+.top-nav ul li a{
+	color: #737373;
+	padding: 0.23em 1em;
+	font-size: 1.05em;
+	text-align: center;
+	position: relative;
+	font-weight: 600;
+	text-decoration:none;
+}
+.top-nav ul li.active a,
+.top-nav ul li a:hover{
+	color:#42B3E5;
+}
+.logo {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+	float:left;
+    /*margin-bottom: 1px;*/
+}
+
+.personal{
+    margin-left: 50px;
+    /*margin-right: 60px;*/
+    /*margin-top: 20px;*/
+    height: 400px;
+    width: 160px;
+    background-color: #afdfe4;
+    float: left;
+    /*text-align: center;*/
+    /*border-top: 2px solid #42B3E5;*/
+    /*border-left: 1px solid #000;*/
+}
+.inside-personal {
+    margin-top: 18px;
+}
+
+/*为表格设置样式*/
+.c1 {
+    font-family: "lucida Grande", Verdana;
+    font-size: 18px;
+    font-style: normal;
+    border-bottom: 1px dotted #CCC;
+    height: 20px;
+    width: 160px;
+    padding: 15px 0px 2px 1.5em;
+    text-align: left;
+    line-height: 20px;
+    cursor: pointer;
+}
+/*鼠标和选择后颜色变化*/
+
+.c1:hover, .selectedM {
+    background-color: #009ad6;
+    font-weight: bold;
+}
+/*信息显示框*/
+
+.including {
+    height: 450px;
+    margin-left: 230px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: 1px solid #d3d7d4;
+}
+.c1 a {
+    color: #000;
+    text-decoration: none;
+}
+.bottom{
+	text-align:center;
+}

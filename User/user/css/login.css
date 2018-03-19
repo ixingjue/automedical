@@ -1,0 +1,68 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-25 16:50:07
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-07 21:20:00
+*/
+
+body {
+    /*background-color: #e9e9e9;*/
+
+   background: url("../images/background.jpg");
+   background-size: cover;
+}
+/* .logo{
+   background: url("../images/logo.png"); 
+   margin-left: 100px;
+   margin-top: 30px;
+   height: 50px;
+
+} */
+
+.main {
+    font-size: 15px;
+    color: #333;
+    font-family: '微软雅黑';
+}
+/* .main-container {
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    height: 450px;
+} */
+
+/*设置登录框的样式*/
+
+.container {
+    margin-left:50%;
+    margin-right: 8%;
+    margin-top: 8%;
+    padding: 40px 0 0;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 0;
+    position: center;
+    background-color: #78cdd1;
+    opacity: 0.7;
+}
+.info-all {
+    background: #fff;
+    padding: 0 0 59px 0;
+    overflow: hidden;
+}
+.info {
+    list-style: none;
+    margin-left: 13%;
+}
+/*登录框*/
+
+#login {
+    background-color: #78cdd1;
+    opacity: 0.9;
+    width: 255px;
+    height: 30px;
+    float: left;
+    font-size: 17px;
+}
